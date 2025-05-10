@@ -1,0 +1,16 @@
+.center-text {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(200, 216, 185);
+}
+
+article {
+    padding: 1em;
+    margin: 1em;
+}
+
+h1 {
+    background-color: rgb(211, 227, 227);
+}

@@ -21,6 +21,10 @@ body {
     font-size: 16px;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 #move-to-top-display {
     position:fixed;
     top: 0;
@@ -76,11 +80,9 @@ body {
     justify-content: center;
     text-align: center;
     background: linear-gradient(45deg, var(--accent-color-two), var(--accent-color));
-    display: flex;
-    height: 90vh;
+    min-height: 90vh;
     width: 100%;
     padding: 20px;
-    box-sizing: border-box;
 }
 
 #front-banner p {
@@ -89,7 +91,8 @@ body {
 
 #front-banner a {
     border: 3px solid var(--accent-color);
-    width: 50%;
+    width: 100%;
+    margin: 0px 20px;
     max-width: 300px;
     background-color: transparent;
     border-radius: 5px;

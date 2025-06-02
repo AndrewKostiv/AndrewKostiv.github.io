@@ -21,10 +21,6 @@ body {
     font-size: 16px;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 #move-to-top-display {
     position:fixed;
     top: 0;
@@ -80,9 +76,11 @@ body {
     justify-content: center;
     text-align: center;
     background: linear-gradient(45deg, var(--accent-color-two), var(--accent-color));
-    min-height: 90vh;
+    display: flex;
+    height: 90vh;
     width: 100%;
     padding: 20px;
+    box-sizing: border-box;
 }
 
 #front-banner p {

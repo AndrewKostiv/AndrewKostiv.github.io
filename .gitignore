@@ -1,0 +1,20 @@
+# Godot / Redot
+.import/
+.export/
+.godot/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# VS Code / JetBrains / other IDEs
+.vscode/
+.idea/
+
+# Build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+*.db
